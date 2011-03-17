@@ -33,6 +33,73 @@
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		307D28A2123043360040C0FA /* PhoneGapBuildSettings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */; };
 		30E1352710E2C1420031B30D /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* PhoneGap.plist */; };
+		AD1B91E51325B06D0065792D /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91991325B06D0065792D /* buttons.png */; };
+		AD1B91E61325B06D0065792D /* debugfont.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B919A1325B06D0065792D /* debugfont.png */; };
+		AD1B91E71325B06D0065792D /* code.css in Resources */ = {isa = PBXBuildFile; fileRef = AD1B919C1325B06D0065792D /* code.css */; };
+		AD1B91E81325B06D0065792D /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = AD1B919E1325B06D0065792D /* default.css */; };
+		AD1B91E91325B06D0065792D /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = AD1B919F1325B06D0065792D /* default.css */; };
+		AD1B91EA1325B06D0065792D /* files.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A01325B06D0065792D /* files.html */; };
+		AD1B91EB1325B06D0065792D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A21325B06D0065792D /* bg.png */; };
+		AD1B91EC1325B06D0065792D /* class_default_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A31325B06D0065792D /* class_default_obj.png */; };
+		AD1B91ED1325B06D0065792D /* class_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A41325B06D0065792D /* class_obj.png */; };
+		AD1B91EE1325B06D0065792D /* collapsebtn.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A51325B06D0065792D /* collapsebtn.gif */; };
+		AD1B91EF1325B06D0065792D /* expandbtn.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A61325B06D0065792D /* expandbtn.gif */; };
+		AD1B91F01325B06D0065792D /* field_private_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A71325B06D0065792D /* field_private_obj.png */; };
+		AD1B91F11325B06D0065792D /* field_public_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A81325B06D0065792D /* field_public_obj.png */; };
+		AD1B91F21325B06D0065792D /* file_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91A91325B06D0065792D /* file_obj.png */; };
+		AD1B91F31325B06D0065792D /* method_private_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AA1325B06D0065792D /* method_private_obj.png */; };
+		AD1B91F41325B06D0065792D /* method_public_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AB1325B06D0065792D /* method_public_obj.png */; };
+		AD1B91F51325B06D0065792D /* minus.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AC1325B06D0065792D /* minus.gif */; };
+		AD1B91F61325B06D0065792D /* namespace_function_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AD1325B06D0065792D /* namespace_function_obj.png */; };
+		AD1B91F71325B06D0065792D /* namespace_obj.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AE1325B06D0065792D /* namespace_obj.png */; };
+		AD1B91F81325B06D0065792D /* never_translate.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91AF1325B06D0065792D /* never_translate.png */; };
+		AD1B91F91325B06D0065792D /* plus.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B01325B06D0065792D /* plus.gif */; };
+		AD1B91FA1325B06D0065792D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B11325B06D0065792D /* index.html */; };
+		AD1B91FB1325B06D0065792D /* jproton.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91B21325B06D0065792D /* jproton.js */; };
+		AD1B91FC1325B06D0065792D /* sh.css in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B31325B06D0065792D /* sh.css */; };
+		AD1B91FD1325B06D0065792D /* sh.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91B41325B06D0065792D /* sh.js */; };
+		AD1B91FE1325B06D0065792D /* _global_.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B61325B06D0065792D /* _global_.html */; };
+		AD1B91FF1325B06D0065792D /* gamecycle.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B71325B06D0065792D /* gamecycle.html */; };
+		AD1B92001325B06D0065792D /* gbox.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B81325B06D0065792D /* gbox.html */; };
+		AD1B92011325B06D0065792D /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91B91325B06D0065792D /* help.html */; };
+		AD1B92021325B06D0065792D /* iphopad.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91BA1325B06D0065792D /* iphopad.html */; };
+		AD1B92031325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91BC1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html */; };
+		AD1B92041325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91BD1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html */; };
+		AD1B92051325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91BE1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html */; };
+		AD1B92061325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91BF1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html */; };
+		AD1B92071325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C01325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html */; };
+		AD1B92081325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C11325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html */; };
+		AD1B92091325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C21325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html */; };
+		AD1B920A1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C31325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html */; };
+		AD1B920B1325B06D0065792D /* tool.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C41325B06D0065792D /* tool.html */; };
+		AD1B920C1325B06D0065792D /* toys.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C51325B06D0065792D /* toys.html */; };
+		AD1B920D1325B06D0065792D /* toys.platformer.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C61325B06D0065792D /* toys.platformer.html */; };
+		AD1B920E1325B06D0065792D /* toys.shmup.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C71325B06D0065792D /* toys.shmup.html */; };
+		AD1B920F1325B06D0065792D /* toys.timer.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C81325B06D0065792D /* toys.timer.html */; };
+		AD1B92101325B06D0065792D /* toys.topview.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91C91325B06D0065792D /* toys.topview.html */; };
+		AD1B92111325B06D0065792D /* trigo.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91CA1325B06D0065792D /* trigo.html */; };
+		AD1B92121325B06D0065792D /* ui.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91CB1325B06D0065792D /* ui.js */; };
+		AD1B92131325B06D0065792D /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91CC1325B06D0065792D /* dpad.png */; };
+		AD1B92141325B06D0065792D /* fretboard.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91CD1325B06D0065792D /* fretboard.png */; };
+		AD1B92151325B06D0065792D /* gamecycle.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91CE1325B06D0065792D /* gamecycle.js */; };
+		AD1B92161325B06D0065792D /* gbox.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91CF1325B06D0065792D /* gbox.js */; };
+		AD1B92171325B06D0065792D /* help.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D01325B06D0065792D /* help.js */; };
+		AD1B92181325B06D0065792D /* iphofretboard.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D11325B06D0065792D /* iphofretboard.js */; };
+		AD1B92191325B06D0065792D /* iphopad.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D21325B06D0065792D /* iphopad.js */; };
+		AD1B921A1325B06D0065792D /* padbg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91D31325B06D0065792D /* padbg.png */; };
+		AD1B921B1325B06D0065792D /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91D41325B06D0065792D /* splash.png */; };
+		AD1B921C1325B06D0065792D /* tool.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D51325B06D0065792D /* tool.js */; };
+		AD1B921D1325B06D0065792D /* toys.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D61325B06D0065792D /* toys.js */; };
+		AD1B921E1325B06D0065792D /* trigo.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91D71325B06D0065792D /* trigo.js */; };
+		AD1B921F1325B06D0065792D /* akibahero-mapper.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91DA1325B06D0065792D /* akibahero-mapper.html */; };
+		AD1B92201325B06D0065792D /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91DC1325B06D0065792D /* empty.png */; };
+		AD1B92211325B06D0065792D /* gridgenerator.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91DE1325B06D0065792D /* gridgenerator.js */; };
+		AD1B92221325B06D0065792D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91DF1325B06D0065792D /* index.html */; };
+		AD1B92231325B06D0065792D /* templates.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91E01325B06D0065792D /* templates.js */; };
+		AD1B92241325B06D0065792D /* makecore.sh in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91E11325B06D0065792D /* makecore.sh */; };
+		AD1B92251325B06D0065792D /* game-tlol.html in Resources */ = {isa = PBXBuildFile; fileRef = AD1B91E21325B06D0065792D /* game-tlol.html */; };
+		AD1B92261325B06D0065792D /* phonegap.0.9.4.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91E31325B06D0065792D /* phonegap.0.9.4.js */; };
+		AD1B92271325B06D0065792D /* phonegap.0.9.4.min.js in Sources */ = {isa = PBXBuildFile; fileRef = AD1B91E41325B06D0065792D /* phonegap.0.9.4.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +150,73 @@
 		30E1352610E2C1420031B30D /* PhoneGap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloWorld_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AD1B91991325B06D0065792D /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
+		AD1B919A1325B06D0065792D /* debugfont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debugfont.png; sourceTree = "<group>"; };
+		AD1B919C1325B06D0065792D /* code.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = code.css; sourceTree = "<group>"; };
+		AD1B919E1325B06D0065792D /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		AD1B919F1325B06D0065792D /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		AD1B91A01325B06D0065792D /* files.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
+		AD1B91A21325B06D0065792D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		AD1B91A31325B06D0065792D /* class_default_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_default_obj.png; sourceTree = "<group>"; };
+		AD1B91A41325B06D0065792D /* class_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_obj.png; sourceTree = "<group>"; };
+		AD1B91A51325B06D0065792D /* collapsebtn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = collapsebtn.gif; sourceTree = "<group>"; };
+		AD1B91A61325B06D0065792D /* expandbtn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expandbtn.gif; sourceTree = "<group>"; };
+		AD1B91A71325B06D0065792D /* field_private_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_private_obj.png; sourceTree = "<group>"; };
+		AD1B91A81325B06D0065792D /* field_public_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_public_obj.png; sourceTree = "<group>"; };
+		AD1B91A91325B06D0065792D /* file_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_obj.png; sourceTree = "<group>"; };
+		AD1B91AA1325B06D0065792D /* method_private_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = method_private_obj.png; sourceTree = "<group>"; };
+		AD1B91AB1325B06D0065792D /* method_public_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = method_public_obj.png; sourceTree = "<group>"; };
+		AD1B91AC1325B06D0065792D /* minus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = minus.gif; sourceTree = "<group>"; };
+		AD1B91AD1325B06D0065792D /* namespace_function_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = namespace_function_obj.png; sourceTree = "<group>"; };
+		AD1B91AE1325B06D0065792D /* namespace_obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = namespace_obj.png; sourceTree = "<group>"; };
+		AD1B91AF1325B06D0065792D /* never_translate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = never_translate.png; sourceTree = "<group>"; };
+		AD1B91B01325B06D0065792D /* plus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = plus.gif; sourceTree = "<group>"; };
+		AD1B91B11325B06D0065792D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AD1B91B21325B06D0065792D /* jproton.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jproton.js; sourceTree = "<group>"; };
+		AD1B91B31325B06D0065792D /* sh.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sh.css; sourceTree = "<group>"; };
+		AD1B91B41325B06D0065792D /* sh.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sh.js; sourceTree = "<group>"; };
+		AD1B91B61325B06D0065792D /* _global_.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _global_.html; sourceTree = "<group>"; };
+		AD1B91B71325B06D0065792D /* gamecycle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gamecycle.html; sourceTree = "<group>"; };
+		AD1B91B81325B06D0065792D /* gbox.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gbox.html; sourceTree = "<group>"; };
+		AD1B91B91325B06D0065792D /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		AD1B91BA1325B06D0065792D /* iphopad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iphopad.html; sourceTree = "<group>"; };
+		AD1B91BC1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html"; sourceTree = "<group>"; };
+		AD1B91BD1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html"; sourceTree = "<group>"; };
+		AD1B91BE1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html"; sourceTree = "<group>"; };
+		AD1B91BF1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html"; sourceTree = "<group>"; };
+		AD1B91C01325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html"; sourceTree = "<group>"; };
+		AD1B91C11325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html"; sourceTree = "<group>"; };
+		AD1B91C21325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html"; sourceTree = "<group>"; };
+		AD1B91C31325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html"; sourceTree = "<group>"; };
+		AD1B91C41325B06D0065792D /* tool.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tool.html; sourceTree = "<group>"; };
+		AD1B91C51325B06D0065792D /* toys.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = toys.html; sourceTree = "<group>"; };
+		AD1B91C61325B06D0065792D /* toys.platformer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = toys.platformer.html; sourceTree = "<group>"; };
+		AD1B91C71325B06D0065792D /* toys.shmup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = toys.shmup.html; sourceTree = "<group>"; };
+		AD1B91C81325B06D0065792D /* toys.timer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = toys.timer.html; sourceTree = "<group>"; };
+		AD1B91C91325B06D0065792D /* toys.topview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = toys.topview.html; sourceTree = "<group>"; };
+		AD1B91CA1325B06D0065792D /* trigo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trigo.html; sourceTree = "<group>"; };
+		AD1B91CB1325B06D0065792D /* ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ui.js; sourceTree = "<group>"; };
+		AD1B91CC1325B06D0065792D /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
+		AD1B91CD1325B06D0065792D /* fretboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fretboard.png; sourceTree = "<group>"; };
+		AD1B91CE1325B06D0065792D /* gamecycle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gamecycle.js; sourceTree = "<group>"; };
+		AD1B91CF1325B06D0065792D /* gbox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gbox.js; sourceTree = "<group>"; };
+		AD1B91D01325B06D0065792D /* help.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = help.js; sourceTree = "<group>"; };
+		AD1B91D11325B06D0065792D /* iphofretboard.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iphofretboard.js; sourceTree = "<group>"; };
+		AD1B91D21325B06D0065792D /* iphopad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iphopad.js; sourceTree = "<group>"; };
+		AD1B91D31325B06D0065792D /* padbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padbg.png; sourceTree = "<group>"; };
+		AD1B91D41325B06D0065792D /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		AD1B91D51325B06D0065792D /* tool.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tool.js; sourceTree = "<group>"; };
+		AD1B91D61325B06D0065792D /* toys.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = toys.js; sourceTree = "<group>"; };
+		AD1B91D71325B06D0065792D /* trigo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = trigo.js; sourceTree = "<group>"; };
+		AD1B91DA1325B06D0065792D /* akibahero-mapper.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "akibahero-mapper.html"; sourceTree = "<group>"; };
+		AD1B91DC1325B06D0065792D /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		AD1B91DE1325B06D0065792D /* gridgenerator.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gridgenerator.js; sourceTree = "<group>"; };
+		AD1B91DF1325B06D0065792D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AD1B91E01325B06D0065792D /* templates.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = templates.js; sourceTree = "<group>"; };
+		AD1B91E11325B06D0065792D /* makecore.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = makecore.sh; sourceTree = "<group>"; };
+		AD1B91E21325B06D0065792D /* game-tlol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "game-tlol.html"; path = "www/game-tlol.html"; sourceTree = "<group>"; };
+		AD1B91E31325B06D0065792D /* phonegap.0.9.4.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = phonegap.0.9.4.js; path = www/phonegap.0.9.4.js; sourceTree = "<group>"; };
+		AD1B91E41325B06D0065792D /* phonegap.0.9.4.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = phonegap.0.9.4.min.js; path = www/phonegap.0.9.4.min.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +265,11 @@
 			isa = PBXGroup;
 			children = (
 				301BF56E109A69640062928A /* www */,
+				AD1B91981325B06D0065792D /* akihabara */,
+				AD1B91D81325B06D0065792D /* extras */,
+				AD1B91E21325B06D0065792D /* game-tlol.html */,
+				AD1B91E31325B06D0065792D /* phonegap.0.9.4.js */,
+				AD1B91E41325B06D0065792D /* phonegap.0.9.4.min.js */,
 				301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
@@ -219,6 +358,150 @@
 			path = Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
+		AD1B91981325B06D0065792D /* akihabara */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91991325B06D0065792D /* buttons.png */,
+				AD1B919A1325B06D0065792D /* debugfont.png */,
+				AD1B919B1325B06D0065792D /* docs */,
+				AD1B91CC1325B06D0065792D /* dpad.png */,
+				AD1B91CD1325B06D0065792D /* fretboard.png */,
+				AD1B91CE1325B06D0065792D /* gamecycle.js */,
+				AD1B91CF1325B06D0065792D /* gbox.js */,
+				AD1B91D01325B06D0065792D /* help.js */,
+				AD1B91D11325B06D0065792D /* iphofretboard.js */,
+				AD1B91D21325B06D0065792D /* iphopad.js */,
+				AD1B91D31325B06D0065792D /* padbg.png */,
+				AD1B91D41325B06D0065792D /* splash.png */,
+				AD1B91D51325B06D0065792D /* tool.js */,
+				AD1B91D61325B06D0065792D /* toys.js */,
+				AD1B91D71325B06D0065792D /* trigo.js */,
+			);
+			name = akihabara;
+			path = www/akihabara;
+			sourceTree = "<group>";
+		};
+		AD1B919B1325B06D0065792D /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B919C1325B06D0065792D /* code.css */,
+				AD1B919D1325B06D0065792D /* css */,
+				AD1B919F1325B06D0065792D /* default.css */,
+				AD1B91A01325B06D0065792D /* files.html */,
+				AD1B91A11325B06D0065792D /* images */,
+				AD1B91B11325B06D0065792D /* index.html */,
+				AD1B91B21325B06D0065792D /* jproton.js */,
+				AD1B91B31325B06D0065792D /* sh.css */,
+				AD1B91B41325B06D0065792D /* sh.js */,
+				AD1B91B51325B06D0065792D /* symbols */,
+				AD1B91CB1325B06D0065792D /* ui.js */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		AD1B919D1325B06D0065792D /* css */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B919E1325B06D0065792D /* default.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		AD1B91A11325B06D0065792D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91A21325B06D0065792D /* bg.png */,
+				AD1B91A31325B06D0065792D /* class_default_obj.png */,
+				AD1B91A41325B06D0065792D /* class_obj.png */,
+				AD1B91A51325B06D0065792D /* collapsebtn.gif */,
+				AD1B91A61325B06D0065792D /* expandbtn.gif */,
+				AD1B91A71325B06D0065792D /* field_private_obj.png */,
+				AD1B91A81325B06D0065792D /* field_public_obj.png */,
+				AD1B91A91325B06D0065792D /* file_obj.png */,
+				AD1B91AA1325B06D0065792D /* method_private_obj.png */,
+				AD1B91AB1325B06D0065792D /* method_public_obj.png */,
+				AD1B91AC1325B06D0065792D /* minus.gif */,
+				AD1B91AD1325B06D0065792D /* namespace_function_obj.png */,
+				AD1B91AE1325B06D0065792D /* namespace_obj.png */,
+				AD1B91AF1325B06D0065792D /* never_translate.png */,
+				AD1B91B01325B06D0065792D /* plus.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		AD1B91B51325B06D0065792D /* symbols */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91B61325B06D0065792D /* _global_.html */,
+				AD1B91B71325B06D0065792D /* gamecycle.html */,
+				AD1B91B81325B06D0065792D /* gbox.html */,
+				AD1B91B91325B06D0065792D /* help.html */,
+				AD1B91BA1325B06D0065792D /* iphopad.html */,
+				AD1B91BB1325B06D0065792D /* src */,
+				AD1B91C41325B06D0065792D /* tool.html */,
+				AD1B91C51325B06D0065792D /* toys.html */,
+				AD1B91C61325B06D0065792D /* toys.platformer.html */,
+				AD1B91C71325B06D0065792D /* toys.shmup.html */,
+				AD1B91C81325B06D0065792D /* toys.timer.html */,
+				AD1B91C91325B06D0065792D /* toys.topview.html */,
+				AD1B91CA1325B06D0065792D /* trigo.html */,
+			);
+			path = symbols;
+			sourceTree = "<group>";
+		};
+		AD1B91BB1325B06D0065792D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91BC1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html */,
+				AD1B91BD1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html */,
+				AD1B91BE1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html */,
+				AD1B91BF1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html */,
+				AD1B91C01325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html */,
+				AD1B91C11325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html */,
+				AD1B91C21325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html */,
+				AD1B91C31325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AD1B91D81325B06D0065792D /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91D91325B06D0065792D /* AkibaHero */,
+				AD1B91DB1325B06D0065792D /* AkibaKa */,
+				AD1B91E11325B06D0065792D /* makecore.sh */,
+			);
+			name = extras;
+			path = www/extras;
+			sourceTree = "<group>";
+		};
+		AD1B91D91325B06D0065792D /* AkibaHero */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91DA1325B06D0065792D /* akibahero-mapper.html */,
+			);
+			path = AkibaHero;
+			sourceTree = "<group>";
+		};
+		AD1B91DB1325B06D0065792D /* AkibaKa */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91DC1325B06D0065792D /* empty.png */,
+				AD1B91DD1325B06D0065792D /* extras */,
+				AD1B91DF1325B06D0065792D /* index.html */,
+				AD1B91E01325B06D0065792D /* templates.js */,
+			);
+			path = AkibaKa;
+			sourceTree = "<group>";
+		};
+		AD1B91DD1325B06D0065792D /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B91DE1325B06D0065792D /* gridgenerator.js */,
+			);
+			path = extras;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,6 +580,58 @@
 				3009C2AD127B894C007F4BC6 /* icon@2x.png in Resources */,
 				3009C2B2127B897D007F4BC6 /* Default-Landscape.png in Resources */,
 				3009C2B3127B897D007F4BC6 /* Default-Portrait.png in Resources */,
+				AD1B91E51325B06D0065792D /* buttons.png in Resources */,
+				AD1B91E61325B06D0065792D /* debugfont.png in Resources */,
+				AD1B91E71325B06D0065792D /* code.css in Resources */,
+				AD1B91E81325B06D0065792D /* default.css in Resources */,
+				AD1B91E91325B06D0065792D /* default.css in Resources */,
+				AD1B91EA1325B06D0065792D /* files.html in Resources */,
+				AD1B91EB1325B06D0065792D /* bg.png in Resources */,
+				AD1B91EC1325B06D0065792D /* class_default_obj.png in Resources */,
+				AD1B91ED1325B06D0065792D /* class_obj.png in Resources */,
+				AD1B91EE1325B06D0065792D /* collapsebtn.gif in Resources */,
+				AD1B91EF1325B06D0065792D /* expandbtn.gif in Resources */,
+				AD1B91F01325B06D0065792D /* field_private_obj.png in Resources */,
+				AD1B91F11325B06D0065792D /* field_public_obj.png in Resources */,
+				AD1B91F21325B06D0065792D /* file_obj.png in Resources */,
+				AD1B91F31325B06D0065792D /* method_private_obj.png in Resources */,
+				AD1B91F41325B06D0065792D /* method_public_obj.png in Resources */,
+				AD1B91F51325B06D0065792D /* minus.gif in Resources */,
+				AD1B91F61325B06D0065792D /* namespace_function_obj.png in Resources */,
+				AD1B91F71325B06D0065792D /* namespace_obj.png in Resources */,
+				AD1B91F81325B06D0065792D /* never_translate.png in Resources */,
+				AD1B91F91325B06D0065792D /* plus.gif in Resources */,
+				AD1B91FA1325B06D0065792D /* index.html in Resources */,
+				AD1B91FC1325B06D0065792D /* sh.css in Resources */,
+				AD1B91FE1325B06D0065792D /* _global_.html in Resources */,
+				AD1B91FF1325B06D0065792D /* gamecycle.html in Resources */,
+				AD1B92001325B06D0065792D /* gbox.html in Resources */,
+				AD1B92011325B06D0065792D /* help.html in Resources */,
+				AD1B92021325B06D0065792D /* iphopad.html in Resources */,
+				AD1B92031325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gamecycle.js.html in Resources */,
+				AD1B92041325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_gbox.js.html in Resources */,
+				AD1B92051325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_help.js.html in Resources */,
+				AD1B92061325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphofretboard.js.html in Resources */,
+				AD1B92071325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_iphopad.js.html in Resources */,
+				AD1B92081325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_tool.js.html in Resources */,
+				AD1B92091325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_toys.js.html in Resources */,
+				AD1B920A1325B06D0065792D /* c__Users_Darius_Desktop_akihabara-1.1_kesiev_akihabara_akihabara_trigo.js.html in Resources */,
+				AD1B920B1325B06D0065792D /* tool.html in Resources */,
+				AD1B920C1325B06D0065792D /* toys.html in Resources */,
+				AD1B920D1325B06D0065792D /* toys.platformer.html in Resources */,
+				AD1B920E1325B06D0065792D /* toys.shmup.html in Resources */,
+				AD1B920F1325B06D0065792D /* toys.timer.html in Resources */,
+				AD1B92101325B06D0065792D /* toys.topview.html in Resources */,
+				AD1B92111325B06D0065792D /* trigo.html in Resources */,
+				AD1B92131325B06D0065792D /* dpad.png in Resources */,
+				AD1B92141325B06D0065792D /* fretboard.png in Resources */,
+				AD1B921A1325B06D0065792D /* padbg.png in Resources */,
+				AD1B921B1325B06D0065792D /* splash.png in Resources */,
+				AD1B921F1325B06D0065792D /* akibahero-mapper.html in Resources */,
+				AD1B92201325B06D0065792D /* empty.png in Resources */,
+				AD1B92221325B06D0065792D /* index.html in Resources */,
+				AD1B92241325B06D0065792D /* makecore.sh in Resources */,
+				AD1B92251325B06D0065792D /* game-tlol.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +675,21 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* HelloWorldAppDelegate.m in Sources */,
+				AD1B91FB1325B06D0065792D /* jproton.js in Sources */,
+				AD1B91FD1325B06D0065792D /* sh.js in Sources */,
+				AD1B92121325B06D0065792D /* ui.js in Sources */,
+				AD1B92151325B06D0065792D /* gamecycle.js in Sources */,
+				AD1B92161325B06D0065792D /* gbox.js in Sources */,
+				AD1B92171325B06D0065792D /* help.js in Sources */,
+				AD1B92181325B06D0065792D /* iphofretboard.js in Sources */,
+				AD1B92191325B06D0065792D /* iphopad.js in Sources */,
+				AD1B921C1325B06D0065792D /* tool.js in Sources */,
+				AD1B921D1325B06D0065792D /* toys.js in Sources */,
+				AD1B921E1325B06D0065792D /* trigo.js in Sources */,
+				AD1B92211325B06D0065792D /* gridgenerator.js in Sources */,
+				AD1B92231325B06D0065792D /* templates.js in Sources */,
+				AD1B92261325B06D0065792D /* phonegap.0.9.4.js in Sources */,
+				AD1B92271325B06D0065792D /* phonegap.0.9.4.min.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
